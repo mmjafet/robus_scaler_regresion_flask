@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 app = Flask(__name__)
 
 # Ruta del archivo de dataset específico
-DATASET_PATH = 'C:/Users/Suseth Sandoval/Downloads/AndroidAdware2017/TotalFeatures-ISCXFlowMeter.csv'
+DATASET_PATH = 'TotalFeatures-ISCXFlowMeter.csv'
 
 # Ruta para la página de inicio y procesamiento de datos
 @app.route('/')
